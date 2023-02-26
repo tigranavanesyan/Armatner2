@@ -1,0 +1,82 @@
+.content-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUs{
+    margin: 100px auto 167px;
+    font-size: 64px;
+    line-height: 87px;
+    font-weight: 700;
+    color: #FF0000;
+}
+.content-row{
+    display: flex;
+    justify-content: center;
+    max-width: 1084px;
+}
+.content-row p{
+    font-size: 25px;
+    line-height: 34px;
+    align-self: center;
+    color: #000000;
+}
+.content-row-1{
+    gap: 110px;
+}
+.content-row-1 p{
+    margin-top: 50px;
+}
+.content-row-1 img{
+    margin-right: 30px;
+    margin-left: 60px;
+}
+.content-row-2{
+    gap: 45px;
+    margin-top: 45px;
+}
+.content-row-2 p{
+    margin-top: 15px;
+    text-align: end;
+}
+.content-row-2 img{
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.content-row-3{
+    gap: 45px;
+    margin-top: 45px;
+}
+/* .content-row-3 p{
+} */
+.content-row-3 img{
+    margin-right: 45px;
+}
+.content-row-4{
+    margin-top: 248px;
+}
+.content-row-4 img{
+    margin-left: 25px;
+    margin-bottom: 100px;
+}
+.principles{
+    max-width: 1060px;
+}
+.principles-title{
+    font-size: 36px;
+    line-height: 49px;
+    max-width: 850px;
+    margin-bottom: 85px;
+    color: #000000;
+}
+.principles-list{
+    max-width: 1091px;
+    margin-bottom: 120px;
+}
+.principles-list li{
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 38px;
+    margin-left: 50px;
+}

@@ -1,0 +1,126 @@
+@media (max-width: 1080px){
+    .blok{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-items{
+        display: none;
+    }
+   .burgerIcon{
+        display: block;
+        width: 50px;
+        height: 50px;
+   }
+    .menu-items-mob{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        z-index: 10;
+    }
+    .menu-items-mob a{
+
+        text-align: center;
+    }
+    .menu-item .languages{
+        display: flex;
+        flex-direction: row;
+        width: 100% !important;
+    }
+    .language {
+        position: relative;
+        display: flex;
+        background-color: red;
+    }
+    .page .languages{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+    }
+    .languageflag p{
+        display: none;
+    }
+    .menu-item-mob{
+        margin: 20px auto;
+        display: block;
+        width: 100%;
+    }
+    .slideText p,
+    .slideText .readMore-join{
+        display: none;
+    }
+    .backgroundImage{
+        height: 400px !important;
+    }
+    .content-row,
+    .content-row-2,
+    .content-row-3,
+    .content-row-4{
+        flex-wrap: wrap;
+        max-width: 100%;
+        text-align: center;
+    }
+    .content-row-2 p{
+        order: 1;
+        text-align: center;
+    }
+    .footer__content{
+        padding-right: 0;
+        padding-left: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer__content div {
+        align-self: center;
+    }
+
+
+
+
+
+
+
+
+
+
+    .pages,
+    .languages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pages h3,
+    .languages h3,
+    .media  h3 {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+        width: 100%;
+    }
+    .pages h3,
+    .languages h3 {
+        align-self: center;
+        margin-right: 0 !important;
+    }
+
+    .header{
+        flex-wrap: wrap;
+    }
+
+
+    .content-row-lessons{
+        flex-wrap: wrap;
+    }
+    .order{
+        order: 2;
+    }
+    .joinLessons p{
+        text-align: center;
+    }
+
+
+}
+

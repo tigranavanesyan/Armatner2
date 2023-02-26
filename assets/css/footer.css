@@ -1,0 +1,125 @@
+.footer__container{
+    margin: 0 auto;
+}
+.footer__content{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: #DEDEDE;
+    max-width: var(--containerWidth);
+    margin: 0 auto;
+}
+.logo-footer{
+    width: 130px;
+    height: 130px;
+    margin-left: 30px;
+}
+.mediaIcons{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 260px;
+    height: 130px;
+}
+.mediaIcons svg{
+    width: 45px;
+    height: 45px;
+    margin: 3px 20px 0 0;
+}
+.mediaIcons svg.mail{
+    width: 56px;
+    height: 55px;
+    margin: 0 20px 0 -7px;
+}
+.mediaIcons svg.phone{
+    width: 40px;
+    height: 55px;
+    margin: 0 20px 0 -2px;
+}
+.mediaIcons svg:hover{
+    opacity: 0.7;
+}
+.footer__content div h3{
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0 120px 33px 0;
+}
+.footer__content p{
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 22px;
+}
+.footer__content p a{
+    text-decoration: none;
+    color: black;
+}
+.flag{
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.flag img {
+    margin-right: 10px;
+    height: 30px;
+}
+.flag p {
+    margin: 0 10px 0 0 !important;
+}
+.map img{
+    max-width: 365px;
+    height: 225px;
+    border-radius: 19px
+}
+.right{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    background: #C8C8C8;
+    padding: 13px 0;
+    max-width: var(--containerWidth);
+    margin: 0 auto;
+}
+.row1,.row2,.row3{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 106px;
+    margin: 0 auto;
+}
+.row3{
+    margin: 0 auto;
+    max-width: 365px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.to-top {
+    background: #FF4F4F;
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#1f1f1f;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  .to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }
