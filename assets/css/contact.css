@@ -117,8 +117,13 @@
     }   
 
 }
-@media (max-width: 560px){
-    input, button, textarea{
-    width: 100%;
+@media (max-width: 660px){
+    .form input, .form button, textarea{
+        width: 100%;
+    }
+    .container-contacts h1 {
+        margin: 35px auto 100px;
+        font-size: 30px;
+
     }
 }
